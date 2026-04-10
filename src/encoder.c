@@ -20,8 +20,6 @@
 #include "nanocbor/config.h"
 #include "nanocbor/nanocbor.h"
 
-#include NANOCBOR_BYTEORDER_HEADER
-
 /* memarray functions */
 static bool _encoder_mem_fits(nanocbor_encoder_t *enc, void *ctx, size_t len)
 {
